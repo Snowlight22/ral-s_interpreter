@@ -1,3 +1,12 @@
+/**
+File: RAL/S Interpreter Source Code
+
+Author: Theodore Baker-Jones
+
+Description: Source code for the RAL/S interpreter.
+
+License: MIT License
+**/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
