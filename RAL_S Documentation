@@ -1,0 +1,49 @@
+RAL/S Documentation:
+
+ADD:
+01 A B
+Adds A and B and stores the result in A
+
+SUB:
+02 A B
+Subtracts B from A and stores the result in A
+
+MUL:
+03 A B
+Multiplies A and B and stores the result in A
+
+DIV:
+04 A B
+Divides A by B and stores the result in A
+
+MOD:
+05 A B
+Finds the remainer of A divided by B and stores the rsult in A
+
+SQT:
+06 A 0
+Finds the square root of A and stores the result in A
+
+SET:
+07 A B
+Stores the value B in the variable A
+
+MOV:
+08 A B
+Copies the value of the variable pointed to by the variable A into the variable pointed to by the variable B
+
+OUT:
+09 A 0
+Prints the contents of the variable A to the screen
+
+GET:
+10 A 0
+Reads a value from the input and stores it in the variable A
+
+JMP:
+11 A B
+Checks if the contents of the variable A are negative, and if they are the contents of variable B are added to the program counter, to which 3 is added if the program jumps backwards
+
+END:
+12 0 0
+End the program
