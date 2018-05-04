@@ -1,4 +1,9 @@
-RAL/S Documentation:
+To Specify Source File:
+- Navigate to folder containing binary
+- Call with the filename and path as argument
+- Voila!
+
+RAL/S Documentation
 
 ADD:
 01 A B
@@ -47,3 +52,7 @@ Checks if the contents of the variable A are negative, and if they are the conte
 END:
 12 0 0
 End the program
+
+PUT:
+13 A 0
+Prints the ASCII character represented by A to the screen
