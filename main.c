@@ -26,7 +26,7 @@ int jump(int cond_var, int jmp_dest, int program_counter);
 int main(int argc, char *argv[]) {
     if (argc == 1) {
         printf("Argument expected");
-    } else if (argc < 2) {
+    } else if (argc > 2) {
         printf("Too many arguments");
     } else {
         char character_output_tmp_var;
